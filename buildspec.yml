@@ -24,8 +24,8 @@ phases:
       - packer validate packer.pkr.hcl
       - packer build packer.pkr.hcl
       # Build and push Docker image to Docker Hub
-      # - docker build -t s3cloudhub/my-app:latest .
-      - docker push s3cloudhub/my-app:latest
+      # - docker build -t fahaddevopsn/aws:latest .
+      - docker push fahaddevopsn/aws:latest
 
   post_build:
     commands:
