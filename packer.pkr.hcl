@@ -29,7 +29,7 @@ build {
   }
 
   post-processor "docker-tag" {
-      repository = "s3cloudhub/my-app"
+      repository = "fahaddevopsn/aws"
     tag        = ["latest", "v1.0.0"]
   }
 }
